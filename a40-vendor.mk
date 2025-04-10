@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a40/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
     vendor/samsung/a40/proprietary/vendor/lib/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty_interface.so \
     vendor/samsung/a40/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/a40/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
     vendor/samsung/a40/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
     vendor/samsung/a40/proprietary/vendor/lib64/hw/camera.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos7904.so \
     vendor/samsung/a40/proprietary/vendor/lib64/hw/gatekeeper.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7904.so \
