@@ -46,14 +46,9 @@ PRODUCT_PACKAGES += \
     libvideobeauty_interface \
     audio.primary.exynos7904 \
     libswdap \
-    android.hardware.gnss@2.1-impl \
-    vendor.samsung.hardware.gnss@2.0-impl \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
     libgf_in_system_lib \
     libqfp_sensortest \
-    libsynaFpSensorTestNwd \
-    libwrappergps \
-    gpsd \
-    vendor.samsung.hardware.gnss@2.0-service
+    libsynaFpSensorTestNwd
