@@ -20,17 +20,18 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/camera.exynos7904.so"],
-			shared_libs: ["liblog", "libhardware", "libutils", "libion", "libion_exynos", "libhwjpeg", "libnativewindow", "libexynoscamera3", "android.hardware.graphics.allocator@2.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: [],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/camera.exynos7904.so"],
-			shared_libs: ["liblog", "libhardware", "libutils", "libion", "libion_exynos", "libhwjpeg", "libnativewindow", "libexynoscamera3", "android.hardware.graphics.allocator@2.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: [],
 		},
 	},
 	compile_multilib: "both",
 	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -128,16 +129,17 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libexynoscamera3.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libion", "libui", "libcamera_metadata", "libexynosutils", "libhwjpeg", "libexynosv4l2", "libion_exynos", "libsync", "libcsc", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.mapper@2.0", "libGrallocWrapper", "libsecnativefeature", "libuniplugin", "libsensorlistener", "libuniapi", "libSEF.quram", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: [],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libexynoscamera3.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libion", "libui", "libcamera_metadata", "libexynosutils", "libhwjpeg", "libexynosv4l2", "libion_exynos", "libsync", "libcsc", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.mapper@2.0", "libGrallocWrapper", "libsecnativefeature", "libuniplugin", "libsensorlistener", "libuniapi", "libSEF.quram", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: [],
 		},
 	},
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
