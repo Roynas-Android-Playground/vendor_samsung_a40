@@ -182,7 +182,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libSEF.quram.so",
             ],
             shared_libs: [
-                "libclang_rt.ubsan_standalone-aarch64-android",
+                "libclang_rt.ubsan_standalone",
                 "liblog",
                 "libc++",
                 "libc",
